@@ -12,3 +12,7 @@ The purpose of this repo is to collect ideas of how a website with photo gallery
 - You could take inspiration from exisiting websites for your designs, but please do mention credits to the original source and theme.
 - Submissions can be in the form of Wireframes, html/css or even screenshots.
 - This is my first attempt at being a maintainer for a project, for Hacktoberfest 2022.
+
+
+### Code Helpers
+![code helpers](https://www.codetriage.com/anushas-dev/photo-gallery-customizations/badges/users.svg)
