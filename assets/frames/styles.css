@@ -1,0 +1,234 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.heading {
+    display: grid;
+    justify-content: center;
+    color: rgb(67, 58, 15);
+}
+
+.grid-layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+html {
+    background-image: linear-gradient(rgb(193, 194, 163), rgb(198, 192, 192));
+    height: auto;
+}
+
+img {
+    width: 150px;
+    height: 220px;
+    border: solid 2px;
+    border-bottom-color: rgb(238, 222, 171);
+    border-left-color: rgb(238, 222, 171);
+    border-right-color: rgb(230, 212, 156);
+    border-top-color: rgb(230, 212, 156);
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.frame-1 {
+    background-color: rgb(207, 176, 146);
+    border: solid 5vmin rgb(243, 138, 126);
+    border-bottom-color: rgb(149, 104, 13);
+    border-left-color: rgb(172, 122, 23);
+    border-radius: 25px;
+    border-right-color: rgb(172, 122, 23);
+    border-top-color: rgb(149, 104, 13);
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25) inset, 0 5px 10px 5px rgba(0, 0, 0, .25);
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 5vh 5vw;
+    padding: 4vmin;
+    position: relative;
+    text-align: center;
+}
+
+.frame-2 {
+    background-color: rgb(158, 109, 60);
+    border: solid 5vmin rgb(243, 138, 126);
+    border-bottom-color: rgb(99, 13, 4);
+    border-top-color: rgb(99, 13, 4);
+    border-left-color: rgb(74, 16, 10);
+    border-right-color: rgb(74, 16, 10);
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25) inset, 0 5px 10px 5px rgba(0, 0, 0, .25);
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 5vh 5vw;
+    padding: 4vmin;
+    position: relative;
+    text-align: center;
+}
+
+.frame-3 {
+    background-color: rgb(162, 169, 124);
+    border: solid 5vmin rgb(55, 42, 4);
+    border-bottom-color: rgb(53, 40, 11);
+    border-top-color: rgb(53, 40, 11);
+    border-left-color: rgb(79, 58, 13);
+    border-right-color: rgb(79, 58, 13);
+    border-radius: 15px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .25) inset, 0 5px 10px 5px rgba(0, 0, 0, .25);
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 5vh 5vw;
+    padding: 4vmin;
+    position: relative;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.box-4 {
+    background: url("https://images.pexels.com/photos/1293120/pexels-photo-1293120.jpeg");
+    box-shadow: inset 0 50px rgba(255, 255, 255, .1),
+        inset 2px -15px 30px rgba(0, 0, 0, .4);
+    padding: 25px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 20px;
+    transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.box-5 {
+    background: url("https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
+    box-shadow: inset 0 50px rgba(255, 255, 255, .1),
+        inset 2px -15px 30px rgba(0, 0, 0, .4);
+    padding: 25px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 20px;
+    transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.box-6 {
+    background: url("https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    box-shadow: inset 0 50px rgba(255, 255, 255, .1),
+        inset 2px -15px 30px rgba(0, 0, 0, .4);
+    padding: 25px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 20px;
+    transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.box-7 {
+    background: url("https://cdn.pixabay.com/photo/2016/12/15/20/21/texture-1909992_960_720.jpg");
+    box-shadow: inset 0 50px rgba(255, 255, 255, .1),
+        inset 2px -15px 30px rgba(0, 0, 0, .4);
+    padding: 25px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 20px;
+    transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.box-8 {
+    background: url("https://cdn.pixabay.com/photo/2022/10/17/15/41/leaf-7528064_960_720.jpg");
+    box-shadow: inset 0 50px rgba(255, 255, 255, .1),
+        inset 2px -15px 30px rgba(0, 0, 0, .4);
+    padding: 25px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 20px;
+    transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.box-9 {
+    background: url("https://cdn.pixabay.com/photo/2020/12/12/13/15/leaves-5825458_960_720.jpg");
+    box-shadow: inset 0 50px rgba(255, 255, 255, .1),
+        inset 2px -15px 30px rgba(0, 0, 0, .4);
+    padding: 25px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 20px;
+    transition: all cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+
+.box-4 img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.box-4:hover {
+    transform: scale(1.1);
+}
+
+.box-5 img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.box-5:hover {
+    transform: scale(1.1);
+}
+
+.box-6 img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.box-6:hover {
+    transform: scale(1.1);
+}
+
+.box-7 img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.box-7:hover {
+    transform: scale(1.1);
+}
+
+.box-8 img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.box-8:hover {
+    transform: scale(1.1);
+}
+
+.box-9 img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.box-9:hover {
+    transform: scale(1.1);
+}
+
+.frame-10 {
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 20px solid transparent;
+    border-image: url("https://images.pexels.com/photos/6373487/pexels-photo-6373487.jpeg") 35% round;
+}
+
+.frame-11 {
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 20px solid transparent;
+    width: fit-content;
+    border-image: url("https://images.pexels.com/photos/6373487/pexels-photo-6373487.jpeg") 35% round;
+}
+
+.frame-12 {
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 20px solid transparent;
+    border-image: url("https://images.pexels.com/photos/6373487/pexels-photo-6373487.jpeg") 35% round;
+}
